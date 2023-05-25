@@ -1,8 +1,8 @@
 ## Program Peminjaman Buku di Perpustakaan
 
-Program ini adalah sebuah program sederhana untuk sistem peminjaman buku di perpustakaan. Program ini menggunakan konsep *Association* antara dua kelas utama yaitu `Buku` dan `AnggotaPerpustakaan`.
+Program ini adalah sebuah program sederhana untuk sistem peminjaman buku di perpustakaan. Program ini menggunakan konsep *Association* antara dua Class utama yaitu `Buku` dan `AnggotaPerpustakaan`.
 
-### Kelas `Buku`
+### Class `Buku`
 
 Kelas `Buku` merepresentasikan buku dengan atribut berikut:
 - `judul`: String yang menyimpan judul buku.
@@ -13,7 +13,7 @@ Kelas ini memiliki dua metode:
 - `pinjam()`: Meminjam buku. Jika buku tersedia, status ketersediaan diubah menjadi `False`.
 - `kembalikan()`: Mengembalikan buku. Status ketersediaan diubah menjadi `True`.
 
-### Kelas `AnggotaPerpustakaan`
+### Class `AnggotaPerpustakaan`
 
 Kelas `AnggotaPerpustakaan` merepresentasikan anggota perpustakaan dengan atribut berikut:
 - `nama`: String yang menyimpan nama anggota.
